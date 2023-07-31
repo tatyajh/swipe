@@ -1,0 +1,80 @@
+.header {
+    position: relative;
+    background-image: url('Rectangle1.png');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 5%; 
+    left: 10%; 
+    width: 100px;
+    height: auto;
+}
+
+.botones {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px; 
+}
+
+.botones button {
+    padding: 20px 10px; 
+    font-size: 14px; 
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.botones button:hover {
+    color: #ddd;
+}
+
+.signin {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    padding: 10px 20px; 
+    font-size: 14px; 
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.signin:hover {
+    color: #ddd;
+}
+
+.hero-phone {
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    transform: translateY(-50%);
+    width: 250px; 
+    height: auto;
+}
+
+.title-section {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.title-section h1 {
+    color: black;
+    font-size: 60px;
+}
+
+.title-section p {
+    color: black;
+    font-size: 18px;
+    max-width: 400px;
+}
